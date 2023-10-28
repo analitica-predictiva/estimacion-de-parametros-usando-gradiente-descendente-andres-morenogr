@@ -48,7 +48,6 @@ def pregunta_02():
 
         # Compute el pronóstico con los parámetros actuales
         y_pred = np.dot(x_poly, params)
-        print()
 
         # Calcule el error
         error = y_pred - y
